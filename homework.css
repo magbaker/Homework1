@@ -2,7 +2,16 @@ body{
   font-family: sans-serif;
 }
 
-.orange-body{
+.PrimarySection{
+  background-color: tomato;
+  color: white;
+}
+
+.SneakerP{
+  font-size: 18px;
+}
+
+.RelatedProducts{
   background-color: tomato;
   color: white;
 }
