@@ -1,7 +1,10 @@
 body{
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;;
 }
 
+head{
+  font-family: 'Roboto', sans-serif;
+}
 .PrimarySection{
   background-color: tomato;
   color: white;
