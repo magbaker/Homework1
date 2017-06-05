@@ -37,6 +37,7 @@ a{
   display:inline-block;
   vertical-align: middle;
   text-transform: uppercase;
+  font-size: 14px;
 }
 
 .NavLink:hover{
@@ -222,28 +223,50 @@ p{
 .RelatedShoesGrid{
   background: linear-gradient(to left, #ff3300 0%, #ff3399 100%);
   color: white;
-  /*display: inline-block;*/
-  /*padding-top: 20px;
-  padding-bottom: 20px;
+  /*border: 1px solid black;*/
   padding-left: 15%;
-  padding-right: 15%;*/
-  border: 1px solid black;
+  padding-right: 15%;
 }
 
 .RecommendedProduct{
-  display: inline-grid;
-  /*border: 1px solid green;*/
-  padding-left: 15px;
-  padding-right: 15px;
+  display: inline-block;
+  width: 275px;
+  margin: 100px 25px;
+  /*border: 1px solid black;*/
+
 }
 
 .ShoeBox{
-  height: 125px;
+  height: 160px;
+  padding-bottom: 15px;
 }
 
+.ItemName{
+  font-size: 24px;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.ItemDescription{
+  font-size: 14px;
+  color: maroon;
+  text-transform: uppercase;
+}
+
+.ItemPrice{
+  /*text-align: right;*/
+  display: inline-block;
+  font-size: 20px;
+  float: right;
+  color: white;
+  font-size: 18px;
+}
+
+
 .FooterNav{
-  /*text-decoration: underline;*/
-  /*color: inherit;*/
+  font-size: 14px;
   padding-top: 25px;
   padding-bottom: 20px;
   padding-left: 20px;
