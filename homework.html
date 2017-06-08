@@ -32,7 +32,7 @@
       <a href="#" class="NavLink">Help</a>
       <a href="#"class="NavLink">My Account</a>
       <img src="images/cart.jpg" alt="Shopping Cart" height="15px">
-      <a href="#" class="NavLink"> Shopping Cart</a>
+      <a href="#" class="NavLink"> Shopping Cart (<span class="counter">0</span>)</a>
 
   </section>
 
@@ -52,16 +52,22 @@
     <a class="ReadReviews" href="#">Read the Reviews</a>
     </p>
     <h3>$120.00</h3>
-    <button type="button" name="BuyNowButton">BUY NOW!</button>
+    <button id="BuyNowButton" type="button" name="BuyNowButton">BUY NOW!</button>
   </div>
 </section>
+<!--
+<div id="modalWrapper">
+  <p>Item has been added to shopping cart.</p>
+  <button id="modalclose" type="button" name="OK">OK</button>
+
+</div> -->
 
 <section class="ProductDetails">
 
   <div class="Tabs">
     <a class="ProductTab" href="#">Product Details</a>
     <a class="ProductTab" href="#">Size & Fit</a>
-    <a class="ProductReviews" href="#">Reviews</a>
+    <a class="ProductReviews" href="#">Reviews &#9733;&#9733;&#9733;&#9734;&#9734;</a>
   </div>
 
     <h4>Exciting Topic</h4>
@@ -81,21 +87,21 @@
     <div class="RecommendedProduct">
       <img class="ShoeBox" src="images/shoe2.png" alt="Blue High Top Sneaker">
       <p class="ItemName">Funny Sneakers</p>
-      <p class="ItemPrice">$120.00</p>
+      <p class="ItemPrice"><sup>$</sup>120<sup>00</sup></p>
       <h5>SPRING/SUMMER 2017</h5>
     </div>
 
     <div class="RecommendedProduct">
       <img class="ShoeBox" src="images/shoe3.png" alt="Red and Black Sneaker">
       <p class="ItemName">Nimble Sneakers</p>
-      <p class="ItemPrice">$120.00</p>
+      <p class="ItemPrice"><sup>$</sup>120<sup>00</sup></p>
       <h5>SPRING/SUMMER 2017</h5>
     </div>
 
     <div class="RecommendedProduct">
       <img class="ShoeBox" src="images/shoe4.png" alt="Blue Sneaker">
       <p class="ItemName">Cute Sneakers</p>
-      <p class="ItemPrice">$120.00</p>
+      <p class="ItemPrice"><sup>$</sup>120<sup>00</sup></p>
       <h5>SPRING/SUMMER 2017</h5>
     </div>
 
@@ -125,5 +131,9 @@
 </section>
 
 </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="homework.js"></script>
+
+</script>
   </body>
 </html>
