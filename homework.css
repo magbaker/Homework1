@@ -21,6 +21,11 @@ header{
   display: inline-block;
 }
 
+sup {
+  font-size: 50%;
+  padding: 0 3px;
+}
+
 a{
   text-decoration: none;
   color: OrangeRed;
@@ -56,19 +61,7 @@ a{
 
 .NavRight{
   clear: right;
-
 }
-
-/*#modalWrapper{
-  visibility: hidden;
-  width: 300px;
-  height: 300px;
-  padding-left: 20%;
-  padding-right: 20%;
-  background: linen;
-  color: black;
-  font-size: 24px;
-}*/
 
 .ProductSection{
   /*clear:right;*/
@@ -90,10 +83,28 @@ a{
 }
 
 .ProductImage{
-  height: 250px;
+  width: 90%;
   padding-top: 20px;
   display: table-caption;
   /*border: 1px solid red;*/
+}
+
+@media (min-width: 2500px){
+  .ProductImage{
+    width: 200px;
+  }
+}
+
+@media (min-width: 992px){
+  .ProductImage{
+    width: 250px;
+  }
+}
+
+@media (min-width: 768px){
+  .ProductImage{
+    width: 488px;
+  }
 }
 
 .ProductDescription{
@@ -122,6 +133,7 @@ button{
   margin-bottom: 10px;
   display: inline-flex;
   outline: 0;
+  /*transition: all 0.2s ease;*/
 }
 
 .counter{
@@ -208,6 +220,11 @@ p{
   /*display: inline-block;*/
 }
 
+li{
+  text-decoration: none;
+  display: inline;
+}
+
 .ProductTab:hover{
   border-bottom: 2.5px solid pink;
   color: maroon;
@@ -220,13 +237,24 @@ p{
   /*padding-top: 20px;
   padding-right: 10px;*/
   /*border-bottom: 1px solid pink;*/
-  /*text-align: right;*/
   float: right;
 }
 
 .ProductReviews:hover{
   border-bottom: 2.5px solid pink;
   color: maroon;
+}
+
+#tab1{
+  display:block;
+}
+
+#tab2{
+  display: none;
+}
+
+#tab3{
+  display: none;
 }
 
 .RecommendedShoesBanner{
@@ -249,8 +277,8 @@ p{
   width: 275px;
   margin: 100px 25px;
   /*border: 1px solid black;*/
-
 }
+
 
 .ShoeBox{
   height: 160px;
